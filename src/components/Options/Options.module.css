@@ -1,0 +1,18 @@
+.wrapper_btn {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+
+.vote_btn {
+  padding: 6px;
+  border-radius: 6px;
+  border-color: #000000;
+  cursor: pointer;
+  background-color: #fff;
+  transition-duration: 200ms;
+}
+
+.vote_btn:hover {
+  background-color: #838383;
+}
