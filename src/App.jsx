@@ -3,6 +3,7 @@ import Description from "./components/Description/Description";
 import Options from "./components/Options/Options";
 import Feedback from "./components/Feedback/Feedback";
 import { useEffect, useState } from "react";
+import Notification from "./components/Notification/Notification";
 
 function App() {
   const [vote, setVote] = useState(() => {
@@ -63,7 +64,7 @@ function App() {
           totalFeedback={totalFeedback}
         />
       ) : (
-        "No feedback yet"
+        <Notification />
       )}
     </>
   );
